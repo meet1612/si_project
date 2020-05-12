@@ -1,0 +1,8 @@
+User Name: <input type="text" [(ngModel)]="userName" placeholder="Enter koushikkothagal">
+<button (click)="search()">Search</button>
+
+<div *ngIf="response">
+  <p>Login Name:{{response.login}}</p>
+  <p>Number of Repos: {{response.public_repos}}</p>
+  <p>Number of Gits:{{response.public_gists}}</p>
+</div>

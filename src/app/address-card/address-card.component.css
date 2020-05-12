@@ -1,0 +1,17 @@
+.address-card{
+  border: 1px grey solid;
+  padding: 15px;
+  text-align: center;
+}
+.name{
+  font-family: "verdana", sans-serif;
+}
+.designation{
+  font-style: italic;
+}
+.address{
+  font-size: 15px;
+}
+.phone{
+  border: 1px grey solid;
+}
