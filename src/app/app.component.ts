@@ -12,6 +12,12 @@ export class AppComponent {
   title = 'first-project..';
   user: User;
   inputText: string = "Initial Value";
+  // homeRoute = "home";
+  // dateRoute = "date";
+  routes=[
+    {linkName:'Home',url:'home'},
+    {linkName:'Date',url:'date'}
+  ];
 
   constructor(private svc: TestService, private http: HttpClient) {
 

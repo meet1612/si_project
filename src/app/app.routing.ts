@@ -9,7 +9,7 @@ import { SettingContactComponent } from './setting-contact/setting-contact.compo
 
 const arr: Routes = [
   { path: '', redirectTo: '/search', pathMatch: 'full' },
-  { path: '', component: DateComponent },
+  { path: 'date', component: DateComponent },
   {
     path: 'setting', component: HelloWorldComponent, children: [
       { path: '', redirectTo: 'profile', pathMatch: 'full' },
